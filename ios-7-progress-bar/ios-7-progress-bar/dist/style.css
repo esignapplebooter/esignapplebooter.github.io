@@ -48,43 +48,25 @@ h1 {
 
 .text-center {
   text-align: center;
+  
 }
-
-/* PROGRESS */
-
-.progress {
-  background-color: #e5e9eb;
-  height: 0.25em;
-  position: relative;
-}
-
-.progress__bar {
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+.esign {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-animation-name: width;
           animation-name: width;
-  background-image: -webkit-gradient(linear, left top, right top, from(#4cd964), color-stop(#5ac8fa), color-stop(#007aff), color-stop(#34aadc), color-stop(#5856d6), to(#ff2d55));
-  background-image: -o-linear-gradient(left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
-  background-image: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);
-  background-size: 100% 0.25em;
-  height: 100%;
-  position: relative;
-}
-
-.progress__shadow {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#eaecee), to(transparent));
-  background-image: -o-linear-gradient(top, #eaecee, transparent);
-  background-image: linear-gradient(to bottom, #eaecee, transparent);
-  height: 4em;
-  width: 100%;
-  position: absolute;
-  top: 100%;
-  -webkit-transform: skew(45deg);
-      -ms-transform: skew(45deg);
-          transform: skew(45deg);
-  -webkit-transform-origin: 0 0;
-      -ms-transform-origin: 0 0;
-          transform-origin: 0 0;
+  margin: center;
+  font-size: 15px;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500px;
+  padding: 20px;
+  width: 350px;
+  border-radius: 26px;
+  background: linear-gradient(145deg, #00f6fa, #00cfd3);
+  box-shadow:  15px 15px 30px #008385,
+               -15px -15px 30px #00ffff;
 }
 
 /* ANIMATIONS */
